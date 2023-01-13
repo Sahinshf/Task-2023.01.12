@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* background-image: url(Image/BG.jfif); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* display: flex;
+  align-items: center;
+  justify-items: center; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  /* align-items: center; */
+}
+div {
+  display: block;
+}
+
+/* .main {
+  background-color: gray;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 30px;
+} */
+
+.conatiner_mailname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.form {
+  display: inline-block;
+  width: 900px;
+  margin: 30px;
+}
+
+.container_name {
+  margin-right: 160px;
+}
+
+#name,
+#mail,
+#website,
+#message {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 8px;
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
+}
+
+/* .container_website,
+.container_message {
+  padding: 20px;
+} */
+
+.container_input {
+  padding: 50px;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  height: 600px;
+  width: 900px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.conatiner_mailname {
+  text-align: left;
+}
+
+#website,
+#message {
+  width: 100%;
+}
+
+#message {
+  height: 100px;
+}
+
+.submit {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(18, 180, 91);
+  border-color: green;
+  text-align: center;
+  background-image: url(Image/BG.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.conatiner_mailname,
+.container_website,
+.container_message {
+  margin-top: 40px;
+}
+
+.container_submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
